@@ -16,7 +16,7 @@ Spatial Resolution: 3m GSD
 
 
 Download command: `hsi_gta_data.download.MicroscenePolymers()`
-![image](https://github.com/user-attachments/assets/ae4aef6e-16a5-4bf7-ac51-7d946d638134)
+![image](https://github.com/user-attachments/assets/ae4aef6e-16a5-4bf7-ac51-7d946d638134)  
 Sensor: SPECIM FENIX  
 Collection Date: July 7, 2018  
 Image Dimensions: 852 rows, 384 columns, 452 bands  
