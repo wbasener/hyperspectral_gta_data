@@ -6,7 +6,7 @@ The data system is created by Geospatial Technology Associates (GTA).
 
 Images Provided:
 
-Download comman: `hsi_gta_data.download.WashingtonDC()`
+Download command: `hsi_gta_data.download.WashingtonDC()`
 ![image](https://github.com/user-attachments/assets/c31e1796-c36a-4de2-ae90-deb8a6d04eb1)
 
 Collection Date: 23 August 1995. 
