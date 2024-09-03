@@ -28,5 +28,5 @@ Image Dimensions: 852 rows, 384 columns, 452 bands
 Spectral Range: 378.6nm - 2500nm   
 Spatial Resolution: 3mm GSD  
 Publications:  
-B. Basener, "Neural Network Learning Of Chemical Bond Representations In Spectral Indices And Features," 2022 12th Workshop on Hyperspectral Imaging and Signal Processing: Evolution in Remote Sensing (WHISPERS), Rome, Italy, 2022, pp. 1-9, doi: 10.1109/WHISPERS56178.2022.9955112. https://doi-org.proxy1.library.virginia.edu/10.1109/WHISPERS56178.2022.9955112
+B. Basener, "Neural Network Learning Of Chemical Bond Representations In Spectral Indices And Features," 2022 12th Workshop on Hyperspectral Imaging and Signal Processing: Evolution in Remote Sensing (WHISPERS), Rome, Italy, 2022, pp. 1-9, doi: [10.1109/WHISPERS56178.2022.9955112](https://doi.org/10.1109/WHISPERS56178.2022.9955112)
 
