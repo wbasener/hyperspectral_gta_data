@@ -1,4 +1,4 @@
-# hsi_gta_data
+# hyperspectral_gta_data
 A simple package to access hyperspectral images and spectral libraries.
 
 The data system is created by Geospatial Technology Associates (GTA).
