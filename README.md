@@ -7,7 +7,11 @@ The data system is created by Geospatial Technology Associates (GTA).
 ## Images Provided:
 
 ### WashingtonDC_Ref_156bands
-Download command: `hsi_gta_data.download.WashingtonDC()`
+Download command:
+```
+hyperspectral_gta_data.download('WashingtonDC')
+fname = 'spectral_images/WashingtonDC_Ref_156bands/WashingtonDC_Ref_156bands'
+```
 ![image](https://github.com/user-attachments/assets/c31e1796-c36a-4de2-ae90-deb8a6d04eb1)  
 Sensor: HYDICE  
 Units: Reflectance  
@@ -19,7 +23,11 @@ Publications:
 D. Landgrebe, "Hyperspectral image data analysis," in IEEE Signal Processing Magazine, vol. 19, no. 1, pp. 17-28, Jan. 2002, doi: [10.1109/79.974718](https://doi.org/10.1109/79.974718).   
 
 ### reflectance_image_polymers
-Download command: `hsi_gta_data.download.MicroscenePolymers()`
+Download command: 
+```
+hyperspectral_gta_data.download('MicroscenePolymers')
+fname = 'spectral_images\Microscene_Polymers\reflectance_image_polymers'
+```
 ![image](https://github.com/user-attachments/assets/ae4aef6e-16a5-4bf7-ac51-7d946d638134)  
 Sensor: SPECIM FENIX  
 Units: Reflectance  
