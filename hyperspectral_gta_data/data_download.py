@@ -1,15 +1,6 @@
 from zipfile import ZipFile 
 import gdown
 import os
-__version__ = 'dev'
-
-def list_data():
-    image_dict = {
-        'WashingtonDC': ['WashingtonDC_Ref_156bands', '13NGtcTWsViteI1J46IDXldlMPPOnTNLz', 'image'],
-        'MicroscenePolymers': ['Microscene_Polymers', '1SjIToGJwkkWyBZER5Wv-1v1-I22Y-EBI', 'image']
-    }
-    for name in image_dict.keys():
-        print(name)
         
 
 class download:
@@ -31,10 +22,10 @@ class download:
             if not os.path.isdir('spectral_libraries'):
                 os.mkdir('spectral_libraries')  
         
-        self.download(fname, fid);
+        self.download_unzip(fname, fid);
         
             
-    def download(self, fname, fid):
+    def download_unzip(self, fname, fid):
             
         if not os.path.isdir('spectral_images/'+fname):
             # Download the zip files of the image.
@@ -54,5 +45,7 @@ class download:
             
             # Delete the zip file
             os.remove(fnameZip)
+    
+    
     
     
