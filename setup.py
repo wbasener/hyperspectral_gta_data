@@ -9,6 +9,10 @@ setup(
     url='https://github.com/wbasener/hyperspectral_gta_data',
     author='Bill Basener',
     author_email='wb8by@virginia.edu',
-
+    
+    install_requires=[
+        'gdown',
+    ],
+    
     py_modules=['hyperspectral_gta_data'],
 )
