@@ -39,7 +39,7 @@ Publications:
 B. Basener, "Neural Network Learning Of Chemical Bond Representations In Spectral Indices And Features," 2022 12th Workshop on Hyperspectral Imaging and Signal Processing: Evolution in Remote Sensing (WHISPERS), Rome, Italy, 2022, pp. 1-9, doi: [10.1109/WHISPERS56178.2022.9955112](https://doi.org/10.1109/WHISPERS56178.2022.9955112)
 
 
-### reflectance_image_polymers
+### Morven_paint_samples_or_ref
 Download command: 
 ```
 hyperspectral_gta_data.download('PaintDetectionUPWINS')
@@ -48,3 +48,10 @@ fname = 'spectral_images/Vegetation_Baccharis_halmifolia_UPWINS/Morven_paint_sam
 ![image](https://github.com/user-attachments/assets/3a2d0068-40bb-49df-9d3a-e92acc2cc00a)
 
 
+### Vegetation_Baccharis_halmifolia_UPWINS
+Download command: 
+```
+hyperspectral_gta_data.download('VegBaccharisUPWINS')
+fname = 'spectral_images/Vegetation_Baccharis_halmifolia_UPWINS/Morven_Baccharis_h_or_ref'
+```
+![image](https://github.com/user-attachments/assets/5e118b70-1aa6-4351-af9e-c65d3ae00e2f)
