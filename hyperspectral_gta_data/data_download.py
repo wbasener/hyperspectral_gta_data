@@ -17,7 +17,7 @@ class download:
             'MicroscenePolymers': ['Microscene_Polymers', '1SjIToGJwkkWyBZER5Wv-1v1-I22Y-EBI', 'image'],
             'FabricVehicleDetecitonRIT': ['Detection_Test_Cooke_City_RIT', '1TxTiM98Fc-D5_ZBFlOlceR0lXdH5qqEo', 'image'],
             'VegBaccharisUPWINS': ['Vegetation_Baccharis_halmifolia_UPWINS', '1e5SloCAzXGIfDRlzhqYcmQ5JUMC8DweC', 'image'],
-            'PaintDetectionUPWINS': ['Vegetation_Baccharis_halmifolia_UPWINS', '1WX_efoG5iIIYjg5Juh9tDz-Tk1BrElrk', 'image']
+            'PaintDetectionUPWINS': ['Morven_paint_samples_or_ref', '1WX_efoG5iIIYjg5Juh9tDz-Tk1BrElrk', 'image']
         }
         
         # determine the file information
