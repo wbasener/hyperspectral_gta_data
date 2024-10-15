@@ -45,7 +45,8 @@ Download command:
 hyperspectral_gta_data.download('PaintDetectionUPWINS')
 fname = 'spectral_images/Vegetation_Baccharis_halmifolia_UPWINS/Morven_paint_samples_or_ref''
 ```
-![image](https://github.com/user-attachments/assets/3a2d0068-40bb-49df-9d3a-e92acc2cc00a)
+![image](https://github.com/user-attachments/assets/eeefa24c-3bf9-44b9-8442-d4eabb5bcf0b)
+
 
 
 ### Vegetation_Baccharis_halmifolia_UPWINS
