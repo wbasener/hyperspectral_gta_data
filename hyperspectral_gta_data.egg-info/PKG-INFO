@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: hyperspectral_gta_data
-Version: 1.0.3.6
+Version: 1.0.4
 Summary: Module for downloading hyperspectral imagery and libraries
 Home-page: https://github.com/wbasener/hyperspectral_gta_data
 Download-URL: https://github.com/wbasener/hyperspectral_gta_data/archive/refs/tags/v_0.1.tar.gz
