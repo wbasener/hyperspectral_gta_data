@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'hyperspectral_gta_data',         # How you named your package folder (MyLib)
   packages = ['hyperspectral_gta_data'],   # Chose the same as "name"
-  version = '1.0.1',      # Start with a small number and increase it with every change you make
+  version = '1.0.3.6',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Module for downloading hyperspectral imagery and libraries',   # Give a short description about your library
   author = 'Bill Basener',                   # Type in your name
@@ -15,9 +15,7 @@ setup(
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
-
     'License :: OSI Approved :: MIT License',   # Again, pick a license
-
     'Programming Language :: Python :: 3',      #Specify which pyhton versions that you want to support
     'Programming Language :: Python :: 3.4',
     'Programming Language :: Python :: 3.5',
