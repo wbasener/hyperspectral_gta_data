@@ -13,25 +13,34 @@ class download:
         
         # Dictionary to hold filenmae-id-data_type information
         self.image_dict = {
-            'WashingtonDC': ['WashingtonDC_Ref_156bands', '13NGtcTWsViteI1J46IDXldlMPPOnTNLz', 'image'],
-            'MicroscenePolymers': ['Microscene_Polymers', '1SjIToGJwkkWyBZER5Wv-1v1-I22Y-EBI', 'image'],
-            'FabricVehicleDetecitonRIT': ['Detection_Test_Cooke_City_RIT', '1TxTiM98Fc-D5_ZBFlOlceR0lXdH5qqEo', 'image'],
-            'VegBaccharisUPWINS': ['Vegetation_Baccharis_halmifolia_UPWINS', '1e5SloCAzXGIfDRlzhqYcmQ5JUMC8DweC', 'image'],
-            'PaintDetectionUPWINS': ['Morven_paint_samples_or_ref', '1WX_efoG5iIIYjg5Juh9tDz-Tk1BrElrk', 'image']
+            'WashingtonDC': ['WashingtonDC_Ref_156bands', '13NGtcTWsViteI1J46IDXldlMPPOnTNLz', 'image', 'WashingtonDC_Ref_156bands\WashingtonDC_Ref_156bands'],
+            'MicroscenePolymers': ['Microscene_Polymers', '1SjIToGJwkkWyBZER5Wv-1v1-I22Y-EBI', 'image', 'Microscene_Polymers\reflectance_image_polymers'],
+            'FabricVehicleDetecitonRIT': ['Detection_Test_Cooke_City_RIT', '1TxTiM98Fc-D5_ZBFlOlceR0lXdH5qqEo', 'image', 'Detection_Test_Cooke_City_RIT\self_test\self_test\HyMap\self_test_refl.img'],
+            'VegBaccharisUPWINS': ['Vegetation_Baccharis_halmifolia_UPWINS', '1e5SloCAzXGIfDRlzhqYcmQ5JUMC8DweC', 'image', 'Vegetation_Baccharis_halmifolia_UPWINS\Morven_Baccharis_h_or_ref'],
+            'PaintDetectionUPWINS': ['Morven_paint_samples_or_ref', '1WX_efoG5iIIYjg5Juh9tDz-Tk1BrElrk', 'image', 'Morven_paint_samples_or_ref/Morven_paint_samples_or_ref']
         }
         
-        # determine the file information
-        fname, fid, file_type = self.image_dict[data_name]
-        
-        # Check if the spectral image or librRY directory exists, and create it if needed
-        if file_type=='image':
-            if not os.path.isdir('spectral_images'):
-                os.mkdir('spectral_images')  
-        if file_type=='library':
-            if not os.path.isdir('spectral_libraries'):
-                os.mkdir('spectral_libraries')  
-        
-        self.download_unzip(fname, fid);
+        try:
+            # determine the file information
+            fname, fid, file_type, self.data_fname = self.image_dict[data_name]
+            
+            # Check if the spectral image or librRY directory exists, and create it if needed
+            if file_type=='image':
+                if not os.path.isdir('spectral_images'):
+                    os.mkdir('spectral_images')  
+            if file_type=='library':
+                if not os.path.isdir('spectral_libraries'):
+                    os.mkdir('spectral_libraries')  
+            
+            self.download_unzip(fname, fid);
+            
+        except:
+            print('No data downloaded.  Available datasets are:')
+            for key in self.image_dict.keys():
+                print(key)
+    
+    def get_fname(self):
+        return self.data_fname
         
     
     def get_data_dir(self):    
